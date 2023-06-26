@@ -2,8 +2,13 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    font-family: 'Belanosima', sans-serif;
+}
+
 .cabeçalho{
-    background-color: rgb(4, 181, 194);
+    background-color: #04419e7a;
     color: white;
     display: flex;
     justify-content: space-around;
@@ -19,4 +24,55 @@ width: 10%;
     display: inline-block;
     margin: 0 16px;
     font-size: 24px;
+}
+
+.sala-de-aula-img{
+    width: 25%; 
+}
+
+.escola{
+    background-image: linear-gradient(#04419e7a, rgb(0, 0, 0));
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+.escola-div-conteudo{
+    width: 35%;
+}
+.escola-titulo{
+    padding: 24px 0;
+}
+
+.estudante-imagem{
+    width: 120px;
+}
+
+.estudante-icone{
+    width: 24px;
+}
+
+.estudante-div{
+    text-align: center;
+}
+
+.estudante-titulo{
+    text-align: center;
+    padding: 50%, 0;
+}
+
+.estudante-todos{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.rodape{
+    background-color: black;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px, 0;
 }
